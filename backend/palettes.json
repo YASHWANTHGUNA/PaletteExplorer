@@ -1,0 +1,40 @@
+{
+  "Joy": [
+    ["#FFC107", "#FFD54F", "#FFECB3"],
+    ["#FDD835", "#FFF176", "#FFFDE7"]
+  ],
+  "Passion": [
+    ["#B71C1C", "#D32F2F", "#E57373"],
+    ["#AD1457", "#EC407A", "#F8BBD0"]
+  ],
+  "Serenity": [
+    ["#1565C0", "#1E88E5", "#90CAF9"],
+    ["#E8EAF6", "#C5CAE9", "#9FA8DA"]
+  ],
+  "Balance": [
+    ["#558B2F", "#9CCC65", "#DCEDC8"],
+    ["#00695C", "#4DB6AC", "#B2DFDB"]
+  ],
+  "Luxury": [
+    ["#8E24AA", "#AB47BC", "#E1BEE7"],
+    ["#311B92", "#5E35B1", "#B39DDB"]
+  ],
+  "Mystery": [
+    ["#263238", "#455A64", "#607D8B"],
+    ["#424242", "#616161", "#9E9E9E"]
+  ],
+  "Sophistication": [
+    ["#CFD8DC", "#ECEFF1", "#FFFFFF"],
+    ["#757575", "#BDBDBD", "#EEEEEE"]
+  ],
+  "Comfort": [
+    ["#4E342E", "#6D4C41", "#A1887F"],
+    ["#BF360C", "#FF7043", "#FFCCBC"]
+  ],
+  "Warmth": [
+    ["#EF6C00", "#FFA726", "#FFCC80"]
+  ],
+  "Tranquility": [
+    ["#D1C4E9", "#B39DDB", "#9575CD"]
+  ]
+}

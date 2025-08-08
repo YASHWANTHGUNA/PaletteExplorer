@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Theme Palette Explorer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Smart Theme Palette Explorer</h1>
+      <p><em>Discover and apply modern dark palettes for any mood.</em></p>
+    </div>
+    <button id="theme-toggle-btn" title="Toggle light/dark theme">☀️</button>
+  </header>
+
+  <section class="controls">
+    <label for="mood-select">Choose Mood:</label>
+    <select id="mood-select">
+      <option value="Joy">Joy / Cheerfulness</option>
+      <option value="Passion">Passion / Love</option>
+      <option value="Serenity">Calm / Serenity</option>
+      <option value="Balance">Balance / Renewal</option>
+      <option value="Luxury">Luxury / Royalty</option>
+      <option value="Mystery">Mystery / Power</option>
+      <option value="Sophistication">Sophistication / Modernity</option>
+      <option value="Comfort">Comfort / Reliability</option>
+    </select>
+    <button id="fetch-btn">Fetch More Palettes</button>
+  </section>
+
+  <section class="palette-preview">
+    <h2>Current Palette</h2>
+    <div id="palette" class="palette"></div>
+    <div class="palette-actions">
+      <button id="apply-btn">Apply Palette</button>
+      <button id="copy-btn">Copy Colors</button>
+      <button id="favorite-btn">★ Favorite</button>
+    </div>
+    <div id="contrast-badge"></div>
+  </section>
+
+  <section class="favorites">
+    <h3>Favorites</h3>
+    <div id="favorites"></div>
+  </section>
+
+  <section class="history">
+    <h3>History</h3>
+    <div id="history"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
